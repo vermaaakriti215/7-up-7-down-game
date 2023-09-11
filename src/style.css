@@ -47,3 +47,7 @@ button:hover {
   background: white;
   transition: all 250ms ease-in-out;
 }
+#exit-link {
+  color: #940000;
+  background: white;
+}
