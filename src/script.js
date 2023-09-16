@@ -47,7 +47,7 @@ function sevenOnly() {
     let h1 = document.querySelector("h1");
     h1.innerHTML = "Player Won!! 😄";
   } else {
-    bal = bal + 10;
+    bal = bal - 5;
     let h1 = document.querySelector("h1");
     h1.innerHTML = "Player Lose!! ☹️";
   }
