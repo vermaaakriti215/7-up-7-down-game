@@ -6,6 +6,10 @@ function sevenUp() {
   let a = diceroll();
   let b = diceroll();
   z = a + b;
+  let imageone = document.querySelector("#dice-one");
+  imageone.setAttribute("src", "images/face " + a + ".png");
+  let imagetwo = document.querySelector("#dice-two");
+  imagetwo.setAttribute("src", "images/face " + b + ".png");
   if (z > 7) {
     bal = bal + 5;
     let h1 = document.querySelector("h1");
@@ -26,6 +30,10 @@ function sevenDown() {
   let a = diceroll();
   let b = diceroll();
   z = a + b;
+  let imageone = document.querySelector("#dice-one");
+  imageone.setAttribute("src", "images/face " + a + ".png");
+  let imagetwo = document.querySelector("#dice-two");
+  imagetwo.setAttribute("src", "images/face " + b + ".png");
   if (z < 7) {
     bal = bal + 5;
     let h1 = document.querySelector("h1");
@@ -42,6 +50,10 @@ function sevenOnly() {
   let a = diceroll();
   let b = diceroll();
   z = a + b;
+  let imageone = document.querySelector("#dice-one");
+  imageone.setAttribute("src", "images/face " + a + ".png");
+  let imagetwo = document.querySelector("#dice-two");
+  imagetwo.setAttribute("src", "images/face " + b + ".png");
   if (z == 7) {
     bal = bal + 10;
     let h1 = document.querySelector("h1");
